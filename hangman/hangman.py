@@ -50,14 +50,11 @@ class Hangman(tk.Tk):
         return random_word
 
 if __name__ == '__main__':
-    # make a new Hangman game
-    game = Hangman(None)
+    # 1. make an object of the Hangman game
 
-    # set your game title
-    game.title("Hangman")
+    # 2. set your game title
 
     # Add a key listener to your game
-    game.bind("<Key>", game.key_pressed)
+    #game.bind("<Key>", game.key_pressed)
 
-    # run your game's mainloop()
-    game.mainloop()
+    # 2. run your game's mainloop()
